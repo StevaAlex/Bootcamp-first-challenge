@@ -1,3 +1,5 @@
+
+/* layout of text boxes will be stacked on top of eachother */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -7,7 +9,7 @@
 body {
     background-color: #d9dcd6;
 }
-
+/* multiple fonts for header incase users browser does not contain the previous font, so allows them to see a font that you have atleast chosen */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -23,7 +25,7 @@ body {
 .header h1 .seo {
     color: #d9dcd6;
 }
-
+/* float: right allows navigation elements to float/be placed to the right of the Horision header*/
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -31,11 +33,11 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+/* No list marker will be shown, removes bulletpoints */
 .header nav ul {
     list-style-type: none;
 }
-
+/* sets left side margin of the nav list to be 20px */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
@@ -49,7 +51,7 @@ a {
 p {
     font-size: 16px;
 }
-
+/* sets image size and position */
 .hero {
     height: 800px;
     width: 100%;
@@ -58,12 +60,12 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/* adds 25px right sided margin */
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/* adds 25px left sided margin */
 .float-right {
     float: right;
     margin-left: 25px;
